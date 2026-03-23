@@ -62,3 +62,6 @@ vector<pair<int,string>> v = {{2,"banana"},{1,"apple"},{2,"cherry"}};
 sort(v.begin(), v.end());   // 先按 int 升序，同 int 按 string 字典序
 // 结果: (1,"apple"), (2,"banana"), (2,"cherry")
 ```
+3.F题(维护区间并集长度）：线段树/多重集  
+线段树：  
+```cpp
